@@ -54,7 +54,7 @@
 
 		<?php elseif ( is_search() ) : ?>
 
-			<p><?php esc_html_e( 'Desculpe, mas não foi encontrado nada com estes termos de busca. Tente procurar algo direfente.', 'govbr' ); ?></p>
+			<p><?php esc_html_e( 'Desculpe, mas não foi encontrado nada com estes termos de busca. Tente procurar algo direfente. José André', 'govbr' ); ?></p>
 			<?php get_search_form(); ?>
 
 		<?php else : ?>
